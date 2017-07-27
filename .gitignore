@@ -12,3 +12,11 @@
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
+
+
+.idea/
+vendor/*/
+
+# Test exclusions
+!command/test-fixtures/**/*.tfstate
+!command/test-fixtures/**/.terraform/
